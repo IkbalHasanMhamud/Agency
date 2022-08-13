@@ -1,0 +1,186 @@
+
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(1, 102, 102);
+    padding: 5px 100px;
+    align-items: center;
+    
+}
+nav img{
+    width: 60px;
+    height: 40px;
+}
+#nav-image{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.menu-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 5px;
+    text-align: center;
+}
+#time{
+    padding-top: 0px;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+#demo{
+    color: aliceblue;
+    font-size: 10px;
+    align-items: center;
+    padding-top: 45px;
+    text-align: center;
+}
+main{
+    padding: 60px 100px;
+    background-color: rgb(21, 153, 109);
+}
+
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 55%;
+    grid-column-gap: 40px;
+}
+.top-details{
+    padding-right: 10px;
+    
+}
+.h4-head{
+    font-size: 20px;
+    color: rgb(228, 206, 12);
+    
+    margin-top: 0px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -20px !important;
+}
+h3{
+
+}
+span{
+    color: rgb(156, 6, 26);
+}
+.top-image{
+    width: 100%;
+    
+
+}
+img{
+    width: 100%;
+    height: 90%;
+    
+    border-radius: 10%;
+}
+p{
+    padding-right: 0px;
+    margin-top: -30px;
+    font-size: 18px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+#service-sec{
+    padding-top: 50px;
+    border-top: .5px solid azure;
+}
+.service-head{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.service-head h3{
+    color: white;
+    margin-top: -20px;
+}
+.service-head span{
+    background-color: rgb(0, 255, 64);
+    color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2px 5px;
+}
+.service-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+.box{
+    
+    padding: 10px;
+    border-color: black;
+    border-radius: 20px;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    text-align: center;
+}
+.box h3{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+#business{
+    background-color: aliceblue;
+}
+
+/* 
+About Us
+*/
+
+.about-sec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-top: 50px;
+}
+
+.about-sec h3{
+    color: aliceblue;
+}
+.about-sec img{
+    width: 80%;
+    height: 400px;
+    align-content: center;
+}
+.about-sec span{
+    background-color: rgb(0, 255, 64);
+    color: aliceblue;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2px 5px;
+}
+
+.about-iconImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    align-content: center;
+}
+.about-iconImage img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.about-iconItem{
+    display: grid;
+    grid-template-columns: none;
+    
+}
+
+
